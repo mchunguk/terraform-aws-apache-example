@@ -20,5 +20,6 @@ variable "my_ip_with_cidr" {
 
 variable "public_key" {
     type = string
+    description "sh-rsa AAAABBB.."
     default = ""  
 }
